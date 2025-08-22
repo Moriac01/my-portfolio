@@ -15,7 +15,7 @@ export default function Home() {
           <div className="items-center lg:text-left order-2 lg:order-none ">
             <span className=" text-white/60 font-medium tracking-tighter ">Developpeur Web & Designer</span>
             <h1 className=" lg:text-4xl text-2xl font-extrabold font-serif lg:pt-4 lg:pb-4 ">Salut 🖖, Je suis  <br/> <span className="text-cyan-500">Moriac KPANGAM</span> </h1>
-            <p className="leading-5 tracking-tighter lg:tracking-wide font-medium text-xs text-white/80">Passionné par la création d'interfaces modernes et éfficaces. <br /> Depuis 2ans, j'explore le développement web et design pour <br /> transformer mes idées en projets concrets.</p>
+            <p className="leading-5 tracking-tighter lg:tracking-wide font-medium text-xs text-white/80">Passionné par la création d&apos;interfaces modernes et éfficaces. <br /> Depuis 2ans, j&apos;explore le développement web et design pour <br /> transformer mes idées en projets concrets.</p>
 
             {/* btn & Social */}
             <div className="pt-4 lg:pt-8 items-center flex gap-6 flex-col lg:flex-row">
@@ -27,7 +27,7 @@ export default function Home() {
                 <FiDownload/>
               </Button>
 
-              <div className="">
+              <div>
                 <Social/>
               </div>
             </div>
