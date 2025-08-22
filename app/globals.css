@@ -3,6 +3,44 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 42px;
+    padding-right: 42px;
+   
+    
+}
+
+.section{
+    padding: 1rem;
+}
+@media(min-width:640px){
+    .container{
+        .section{padding: 1rem; }
+        
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        .section{padding: 2rem;}
+        
+    }
+}
+@media(min-width:960px){
+    .container{
+        .section{padding: 2.5rem;}
+        
+    }
+}
+@media(min-width:1200px){
+    .container{
+        .section{padding: 3rem;}
+        
+    }
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -117,6 +155,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-black text-white text-foreground;
   }
 }
