@@ -45,7 +45,7 @@ const Contact = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="pt-25 py-6"
+      className="pt-30 py-8"
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-[100px]">
